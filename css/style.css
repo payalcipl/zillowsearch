@@ -1,0 +1,101 @@
+/* overrule some semantic styles for now. */
+
+.ui.card>.content {
+	padding: 3em;
+}
+
+.ui.card {
+	width: 540px;
+	min-height: 390px;
+}
+
+.bump_card_up {
+	height: 100%;
+	max-height: 8em;
+}
+
+.ui.form .field {
+	margin: 2em 0em
+}
+
+.ui.form {
+	width: 100%;
+}
+
+form a {
+	color: rgba(0, 0, 0, 0.4);
+	font-size: 0.75em;
+}
+
+/* undo the odd yellow autofill colour */
+.ui.form .field.field input:-webkit-autofill {
+	border-color: rgba(0, 0, 255, 0.35) !important;
+}
+
+.ui.form .field.field input:-webkit-autofill:focus {
+	border-color: rgba(0, 0, 255, 0.5) !important;
+}
+
+
+/* override these with the theme colour */
+.ui.primary.button {
+	background-color: #ad0132;
+}
+
+.ui.primary.button:hover {
+	background-color: #ad0132;
+}
+
+#custom_card {
+	background: #4a4a4a78;
+}
+
+#custom_card .disabled.field, .ui.form .disabled.fields .field, .ui.form .field :disabled{
+	opacity : 1;
+	background: #f1f1f1fc;
+}
+
+#custom_card{
+	webkit-box-shadow: none; 
+	box-shadow: none;
+}
+
+#heading {
+	color : #fff;
+}
+
+.ui.form input[type=text] {
+	background: #f1f1f1fc;
+}
+
+.page_layout_content {
+	padding: 20px 20px;
+}
+
+#map {
+  height: 500px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
+
+
+#property_card {
+	width: 270px;
+}
+
+.gm-style .gm-style-iw-c{
+	border-radius : 0px;
+	padding : 0px;
+}
+
+div.gm-style-iw{
+  overflow:hidden!important;
+}
+
+#map_info_window_card {
+    margin: 0px;	
+}
+
+.gm-style-iw-d div {
+	overflow: hidden;
+} 
+ 
